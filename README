@@ -1,5 +1,8 @@
 
-  Get and parse +yandex geocode+ service
+  Gets geo coordinates through the +yandex geocode+ service
+  How to use:
+  rails plugin install https://sunchess@github.com/sunchess/YandexGeocode.git
+  
   You need JSON gem
     gem install json
 
