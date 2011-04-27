@@ -1,7 +1,7 @@
 
   Get and parse +yandex geocode+ service
   You need JSON gem
-    gem install JSON
+    gem install json
 
   You may use with https://github.com/PavelTyk/ya_map plugin there is config/ya-map-api-key.yml.
 
