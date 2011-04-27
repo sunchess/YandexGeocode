@@ -1,0 +1,22 @@
+
+  Get and parse +yandex geocode+ service
+  You need JSON gem
+    gem install JSON
+
+  You may use with https://github.com/PavelTyk/ya_map plugin there is config/ya-map-api-key.yml.
+
+  If you use rails and have api key in file config/ya-map-api-key.yml
+
+   @geo = Geocode.new
+   or
+   @geo = Geocode.new("long_api_key")
+  
+  Get result from service
+   @geo.get("Москва")
+  
+  Parse json results
+   @geo.parse
+   @geo.result #return [37.617671,55.755768]
+  or
+   @geo.get_and_parse("Москва")
+   @geo.result #return ["37.609218", "55.753559"] strings in array!
