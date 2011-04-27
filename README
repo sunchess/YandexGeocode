@@ -5,6 +5,8 @@
   
   You need JSON gem
     gem install json
+    or
+    gem 'json' in Gemfile
 
   You may use with https://github.com/PavelTyk/ya_map plugin there is config/ya-map-api-key.yml.
 
