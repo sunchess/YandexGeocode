@@ -12,8 +12,8 @@ describe Geocode do
   end
 
   describe "should have method" do
-    it "get_and_parse" do
-      @geo.should respond_to(:get_and_parse)
+    it "find" do
+      @geo.should respond_to(:find)
     end
 
     it "get" do

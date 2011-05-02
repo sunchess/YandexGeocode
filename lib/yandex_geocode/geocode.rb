@@ -44,7 +44,7 @@ module YandexGeocode
       end
     end
 
-    def get_and_parse(geo_place)
+    def find(geo_place)
       get(geo_place)
       parse
     end
