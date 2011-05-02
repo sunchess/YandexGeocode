@@ -23,5 +23,5 @@
    @geo.parse
    @geo.result #return [37.617671,55.755768]
   or
-   @geo.get_and_parse("Москва")
+   @geo.find("Москва")
    @geo.result #return ["37.609218", "55.753559"] strings in array!
